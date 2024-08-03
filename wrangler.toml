@@ -1,0 +1,13 @@
+compatibility_date = "2023-04-17"
+
+[env.production]
+name = "edge-tun"
+
+[env.production.vars]
+MODE = "production"
+
+[env.staging]
+name = "edge-tun-staging"
+
+[env.staging.vars]
+MODE = "staging"
